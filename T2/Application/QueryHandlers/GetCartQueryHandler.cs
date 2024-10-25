@@ -1,12 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Application.Commands;
+using Application.Queries;
+using AutoMapper;
+using Domain.Entities;
+using Domain.Repositories;
+using MediatR;
 
 namespace Application.QueryHandlers
 {
-    internal class GetCartQueryHandler
+    public class GetCartQueryHandler : IRequestHandler<GetCartQuery, CartDTO>
     {
+        private readonly ICartRepository repository;
+        private readonly IMapper mapper;
+
+        public GetCartQueryHandler(ICartRepository repository, IMapper mapper)
+        {
+            this.repository = repository;
+            this.mapper = mapper;
+        }
+        public async Task<CartDTO> Handle(GetCartQuery request, CancellationToken cancellationToken)
+        {
+            var cart = await  repository.GetByIdAsync(request.Id); 
+            return mapper.Map<CartDTO>(cart);
+        }
     }
 }
