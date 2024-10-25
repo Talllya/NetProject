@@ -31,6 +31,23 @@
           }
         }
       },
+      "FluentValidation.DependencyInjectionExtensions/11.10.0": {
+        "type": "package",
+        "dependencies": {
+          "FluentValidation": "11.10.0",
+          "Microsoft.Extensions.Dependencyinjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Humanizer.Core/2.14.1": {
         "type": "package",
         "compile": {
@@ -893,6 +910,7 @@
           "AutoMapper": "13.0.1",
           "Domain": "1.0.0",
           "FluentValidation": "11.10.0",
+          "FluentValidation.DependencyInjectionExtensions": "11.10.0",
           "MediatR": "12.4.1"
         },
         "compile": {
@@ -953,6 +971,23 @@
         "lib/netstandard2.0/FluentValidation.xml",
         "lib/netstandard2.1/FluentValidation.dll",
         "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "FluentValidation.DependencyInjectionExtensions/11.10.0": {
+      "sha512": "hIe+i6P+ZUxFh6lJOBXRs4EGE/thcub0Lpdk2FF2/JBKJUqDqE2xDnBIiqTMkpXLoekgBN0SlhJT0vpeNr1J6g==",
+      "type": "package",
+      "path": "fluentvalidation.dependencyinjectionextensions/11.10.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+        "fluentvalidation.dependencyinjectionextensions.nuspec",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.0/FluentValidation.DependencyInjectionExtensions.xml",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.dll",
+        "lib/netstandard2.1/FluentValidation.DependencyInjectionExtensions.xml"
       ]
     },
     "Humanizer.Core/2.14.1": {
@@ -2312,19 +2347,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Tallya\\.nuget\\packages\\": {}
+    "C:\\Users\\anaun\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Infrastructure\\Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Tallya\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Infrastructure\\Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\anaun\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Tallya\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anaun\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2339,11 +2374,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Application\\Application.csproj"
+            "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Application\\Application.csproj"
             },
-            "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Tallya\\Desktop\\net\\NetProject\\Domain\\Domain.csproj"
+            "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\anaun\\OneDrive\\Desktop\\.NET\\T2 (1)\\T2\\Domain\\Domain.csproj"
             }
           }
         }
