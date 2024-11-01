@@ -1,4 +1,3 @@
-Tema 2 (ShoppingCart .net WebAPI):
 
 Bordeianu Ana Maria 
 
